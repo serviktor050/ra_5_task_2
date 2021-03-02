@@ -1,9 +1,10 @@
 import React from "react";
+import ServiceTvProgramButton from "./ServiceTvProgramButton";
 
 export default function ServiceTvProgram(props) {
   return (
     <div>
-      Телепрограмма и кнопка "Эфир"
+      <ServiceTvProgramButton />
       <div>Передаваемые блоки передач</div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import SearchMenu from "./SearchMenu";
 import SearchLogo from "./SearchLogo";
-import SearchField from "./SearchField";
+import SearchField from "./SearchField/SearchField";
 import SearchExample from "./SearchExample";
 
 export default function Search() {

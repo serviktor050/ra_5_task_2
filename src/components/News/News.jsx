@@ -5,11 +5,7 @@ export default function News(props) {
   return (
     <>
       <div>
-        Блок новостей
-        <NewsItem news={props.news} />
-        <NewsItem news={props.news} />
-        <NewsItem news={props.news} />
-        <NewsItem news={props.news} />
+        Блок новостей. Мапим список новостей из отдельных компонентов.
         <NewsItem news={props.news} />
       </div>
     </>

@@ -1,5 +1,10 @@
 import React from "react";
 
-export default function NewsItems(props) {
-  return <div>Отдельная новость</div>;
+export default function NewsItem(props) {
+  return (
+    <div>
+      Создаем отдельную новость. На вход получаем изображение, заголовок,
+      ссылку.
+    </div>
+  );
 }

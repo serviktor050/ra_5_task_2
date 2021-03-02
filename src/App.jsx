@@ -7,12 +7,21 @@ function App() {
     {
       img: "img1",
       text: "Путин упростил получение автомобильных номеров",
+      href: "http://site1.ru",
     },
     {
       img: "img2",
       text: "В команде Зеленского раскрыли план реформ на Украине",
+      href: "http://site2.ru",
     },
   ];
+
+  const data = {
+    img: "img",
+    name: "Работа над ошибками",
+    text: "Смотрите на Яндексе и запоминайте",
+    href: "http://site.ru",
+  };
 
   const quotes = [
     {
@@ -31,6 +40,15 @@ function App() {
       difference: "",
     },
   ];
+
+  const searchExample = {};
+
+  const weather = {
+    img: "",
+    tempNow: "",
+    tempMorning: "",
+    tempEvening: "",
+  };
 
   const visited = [
     {
@@ -58,11 +76,17 @@ function App() {
   return (
     <Page
       news={news}
+      data={data}
       quotes={quotes}
+      searchExample={searchExample}
+      weather={weather}
       visited={visited}
       tvProg={tvProg}
       aether={aether}
-    />
+    >
+      <img src="..." alt="banner" />
+      <img src="..." alt="serviceAetherIcon" />
+    </Page>
   );
 }
 

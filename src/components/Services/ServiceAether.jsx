@@ -4,7 +4,8 @@ export default function ServiceAether(props) {
   return (
     <div>
       Эфир
-      <div>Передаваемые передачи</div>
+      <div>Добавлем передаваемые иконки.</div>
+      <div>Верстаем передваемые вложенные блоки.</div>
     </div>
   );
 }
